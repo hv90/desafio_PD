@@ -1,0 +1,32 @@
+passo 1 - Primeiramente, no aplicativo MySQL Workbench, 
+	é necessário adicionar uma conexão com username: root e 
+	password: password. Após isso,  execute 
+	o script com as tabelas do banco: "start.sql" através do
+	caminho File > Run SQL Script.
+
+passo 2 - Em Discos-Server, execute o comando: nodemon index.js
+	Uma mensagem informando a porta será exibida. 
+	Este será o sinal para ir para o passo 3.
+
+passo 3 - Em catalogo_de_discos3, execute o comando: serve -s build
+	Aparecerá uma mensagem dizendo a porta em que a aplicação web
+	está sendo servida. 
+	Acesse o endereço indicado através de um browser.
+
+passo 4 - Para inserir discos na coleção, digite no 1º input o nome do artista,
+	seguido do nome do álbum do disco no 2º input. Confirme com o botão "Add Disco".
+
+passo 5 - Para remover um disco, digite o nome do álbum  e confirme
+	com o botão "Delete Disco"
+
+passo 6 - Para Editar uma informação, escolha o campo a ser editado.
+	Em seguida, insira no 1º input o nome que consta na coleção. 
+	Após, insira no 2º input o nome que quer substituir para constar na coleção.
+
+passo 7 - Para realizar uma busca na coleção, digite o termo a ser buscado no input
+	de busca na coleção (ao topo da página). Se o termo pesquisado estiver 
+	na coleção, a exibição de toda a coleção será substituída pelo termo buscado.
+	Do contrário, nada será exibido enquanto o termo não encontrado permanecer no 
+	input.
+
+Nota: Os discos são automaticamente exibidos no topo da página.
